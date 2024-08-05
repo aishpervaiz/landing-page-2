@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Email configuration
-    $to = "your-email@example.com";  // Replace with your email address
+    $to = "aishahpervaiz@csus.edu";  // Replace with your email address
     $subject = "New Contact Form Submission";
     $headers = "From: " . $email . "\r\n";
     $headers .= "Reply-To: " . $email . "\r\n";
